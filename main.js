@@ -1,3 +1,17 @@
+/* WANT TO IMPLEMENT
+
+- wind, rain, cloud, snow image and data
+- current weather icon (above temperature); gif?
+- update fonts to look good
+- some kind of interactive graphical feature below stats
+- change up to look different from template
+- upon load, prompt user to share location or use NY, London
+
+*/
+
+
+
+
 const dateHeader = document.querySelector('.panel-left-date');
 const tempNumber = document.querySelector('.panel-left-tempnumber');
 const degreeUnit = document.querySelector('.panel-left-degrees');
@@ -54,7 +68,7 @@ function displayWeather(lat, long) {
     tempNumber.innerHTML = '20';
     locationDisplay.innerHTML = 'London';
     tempDescription.innerHTML = 'thunderstorm';
-    
+
 
     /*
     fetch(api)
@@ -71,6 +85,10 @@ function displayWeather(lat, long) {
             tempNumber.innerHTML = `${weather.temperature}`;
             locationDisplay.innerHTML = `${weather.city}`;
             tempDescription.innerHTML = `${weather.description}`;
+
+            // displayStats() call:
+            // need to know what's in data.weather.main,
+            // then pass relevant info
         });
     */
 
