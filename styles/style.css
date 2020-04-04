@@ -47,3 +47,66 @@
 .panel-left-temp {
     display: flex;
 }
+
+.panel-right-stats {
+    background-color: navy;
+    display: flex;
+    align-items: flex-start;
+    height: 35%;
+}
+
+.stats-wind {
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stats-rain {
+    height: 100%;
+    width: 25%;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stats-cloud {
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stats-snow {
+    height: 100%;
+    width: 25%;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stats-wind p {
+    display: flex;
+    justify-content: center;
+}
+
+.stats-rain p {
+    display: flex;
+    justify-content: center;
+}
+
+.stats-cloud p {
+    display: flex;
+    justify-content: center;
+}
+
+.stats-snow p {
+    display: flex;
+    justify-content: center;
+}
